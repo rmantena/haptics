@@ -10,9 +10,9 @@ Hardware used were Two Novint Falcon devices.
 We have seen that using Wave Variables is much better than traditional Position Servo teleoperation, when there is a time delay, as the chances of the system going unstable are very very less. However, the force feedback is not perfect in presence of time delay. 
 Watch the below video for a better understanding. 
 
-https://www.youtube.com/uJxbSLDXqgU
+https://youtu.be/uJxbSLDXqgU
 
-[![Watch the video](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](https://www.youtube.com/uJxbSLDXqgU)
+[![Watch the video]](https://youtu.be/uJxbSLDXqgU)
 
 Thanks! 
 
