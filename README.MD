@@ -4,12 +4,15 @@ Authors: Keith Dockstader and Rajiv Mantena
 Haptics MEEN 7690 Final Project | Spring 2017 | University of Utah
 
 ------------ Summary ------------
+
 This project was undertaken to demonstrate the advantage of using Wave Variables for Bilateral Teleoperation in presence of Time Delay. 
 Hardware used were Two Novint Falcon devices. 
 We have seen that using Wave Variables is much better than traditional Position Servo teleoperation, when there is a time delay, as the chances of the system going unstable are very very less. However, the force feedback is not perfect in presence of time delay. 
 Watch the below video for a better understanding. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uJxbSLDXqgU" frameborder="0" allowfullscreen></iframe>
+https://www.youtube.com/uJxbSLDXqgU
+
+[![Watch the video](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](https://www.youtube.com/uJxbSLDXqgU)
 
 Thanks! 
 
@@ -43,6 +46,7 @@ The buttons to alter the gains and time delay are shown at all times.
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
+
 Section II: Generating custom code
 
 Complete Section I before beginning Section II.
