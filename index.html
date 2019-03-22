@@ -1,0 +1,85 @@
+<!--- index HTML for my webpage --->
+<!--- I reseve all rights to this webpage. Contact me before duplicating this! --->
+
+<!DOCTYPE html>
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ <meta name="viewport" content="width=device-width, initial-scale=0.4"> 
+ 
+<title>Haptics ME 7960 Project | Spring 2017</title>
+ 
+ <link rel="stylesheet" type="text/css" href="http://www.rajivmantena.net/style/basic.css">
+</head>
+
+<body>
+<div id="header">
+<br>
+</div>
+<div id="frame">
+<div id="body"> 
+<myTitle style="font-size:150%">Haptics Project</myTitle>
+<p style="text-align:center;font-size:80%">ME 7960 Haptics | University of Utah | Spring 2017
+<br>
+<span style="font-size:120%"><a href="http://rajivmantena.net/" target="_blank">Rajiv Mantena</a> and 
+<a href="https://www.linkedin.com/in/keith-dockstader-b4ba42101/" target="_blank">Keith Dockstader</a></span></p>
+<hr>
+<div id="emptyWrapper">
+<div id="onlyContent" style="margin-bottom:0px;">
+<projectTitle><b> Time-Delayed Bilateral Teleoperation using Wave Variables </b></projectTitle>
+<br>
+<br>
+<p>We worked on this project to understand how using Wave Variables for Time Delayed Teleoperation would ensure Stability. </p>
+
+<p>Hardware used for this project : 2 Novint Falcons.</p>
+
+<p>SDK used for this project : <a href="http://www.forcedimension.com/support/download" target="_blank">Force Dimension SDK 3.6</a> on Windows.</p>
+
+<p>A user selectable (non-varying) Time Delay has been implimented in code. The executable can present time delays between 0.001 sec (actual Haptic loop) and 1 sec. </p>
+<br>
+<p><i>To run the executable : </i></p>
+
+<ul style="margin-left:20px; font-size:100%;">
+<li> Download and Install the Falcon Drivers from Force Dimension's website. </li>
+<li> Download the executable "<b>runMe.exe</b>" and Run it.</li>
+<li> The executable offers you to experience the following three Bilateral Teleoperation Control Strategies : <i>Bilateral Teleoperation (Position Servo) without time delay</i>,
+<i> Bilateral Teleoperation with time delay</i> <i>and Bilateral Teleoperation using Wave Variables with time delay</i>.</li>
+<li> The user should be able to navigate between the three Control Strategies by keyboard inputs. Gains and Time Delays can also be varied.</li>
+</ul>
+<br>
+<p><i>To modify the source code : </i></p>
+<ul style="margin-left:20px; font-size:100%;">
+<li> Download and Install the SDK from Force Dimension's website. </li>
+<li> Update the <b>mirror.cpp</b> file at <i>...\sdk-3.6.0\examples\CLI\mirror\</i> with our <b>sourceCode.cpp</b>.</li>
+<li> Compile and Run the updated <b>mirror</b> project.</li>
+<li> More instructions available in <b>readMe.txt</b>.</li>
+</ul>
+<br>
+<p><b> References : </b></p>
+<ul style="margin-left:20px; font-size:100%;">
+<li> Niemeyer, G., & Slotine, J.-J. E. - Stable Adapative Teleoperation. <br><i>IEEE Journal of Oceanic Engineering (1991)</i></li>
+</ul>
+
+<br>
+<p><b> We'd like to Thank : </b></p>
+<ul style="margin-left:20px; font-size:100%;">
+<li> Force Dimension, the original authors of the source code for <i>mirror</i>. We had based our project on this code.</li>
+<li> Nick Posselli for providing the code to implement time delays in software.</li>
+<li> Dr. Jake Abbott for guidance which helped us complete this project on time.</li>
+</ul>
+
+<br>
+<hr>
+<p style="text-align:center; font-size:110%; margin-top:10px; margin-bottom:-15px;"><a href="haptics.zip">Download ZIP file here</a></p>
+
+
+</div>
+<div id="cleared"></div>
+</div>
+</div>
+</div>
+<div id="copy">
+&copy; Rajiv Mantena | Updated : April 2017
+</div>
+</body>
+</html>
+
